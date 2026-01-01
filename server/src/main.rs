@@ -5,7 +5,7 @@ use axum::extract::State;
 use axum::response::Html;
 use axum::routing::get;
 
-const LIGHT_PORT: u16 = 13355;
+const LIGHT_PORT: u16 = 8888;
 const USER_PORT: u16 = 8888;
 
 #[derive(Clone)]

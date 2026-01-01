@@ -1,6 +1,6 @@
 use std::net::{Ipv4Addr, SocketAddrV4};
 
-const UPSTREAM: SocketAddrV4 = SocketAddrV4::new(Ipv4Addr::LOCALHOST, 13355);
+const UPSTREAM: SocketAddrV4 = SocketAddrV4::new(Ipv4Addr::LOCALHOST, 8888);
 
 #[tokio::main]
 async fn main() {
